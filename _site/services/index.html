@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+  <meta name="description" content="I am a CompTIA Security+ certified cybersecurity specialist with experience in web development, system administration, and DevOps. I help businesses of all sizes protect their websites and data from cyberattacks. My services include penetration testing, security incident response, and secure web development." />
+  <meta name="author" content="" />
+
+  <title>Kyle Crookshank: Building Secure Web Solutions</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="/assets/css/main.css" rel="stylesheet" />
+</head>
+
+
+<body>
+  <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand js-scroll-trigger" href="/"
+      >Kyle Crookshank: Building Secure Web Solutions
+      </a
+    >
+    <button
+      class="navbar-toggler ml-auto"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarResponsive"
+      aria-controls="navbarResponsive"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        
+        <li class="nav-item">
+          <a class="nav-link" href="/">Home</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="/about/">About</a>
+        </li>
+        
+        <li class="nav-item active ">
+          <a class="nav-link" href="/services/">Services</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="/contact-kyle/">Contact</a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+ <!-- Header -->
+<header style="background-image:url('/assets/img/header-bg.png');"class="bg-primary py-5 mb-5">
+  <div class="container h-100">
+    <div class="row h-100 align-items-center">
+      <div class="col-lg-12">
+        <h1 class="display-4 text-white mt-5 mb-2">
+          Helping businesses stay safe in the digital age
+        </h1>
+        <p class="lead mb-5 text-white-50">
+          I am a CompTIA Security+ certified cybersecurity specialist with experience in web development, system administration, and DevOps. I help businesses of all sizes protect their websites and data from cyberattacks. My services include penetration testing, security incident response, and secure web development.
+        </p>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <!-- Page Content -->
+  <div class="container mb-5">
+    <style>
+    .service-item 
+    {
+        cursor: pointer;
+        border:1px solid #444;
+        border-radius:9px;
+        padding:15px 15px 7.5px 15px;
+        margin-bottom:15px;
+        background-color:#ccc;
+    }
+    .service-item.active
+    {
+        margin-bottom:0;
+    }
+    .service-item img
+    {
+        width:64px;
+        height:64px;
+    }
+    .service-item img,
+    .service-item h3
+    {
+        display: inline-block;
+    }
+    .service-content
+    {
+        /* text-align:center; */
+        text-indent:15px;
+        /* margin-top:15px; */
+        border:1px solid black;
+        border-bottom-right-radius:7.5px;
+        border-bottom-left-radius:7.5px;
+        border-top:0;
+        width: 90%;
+        margin: 0 auto 0 auto;
+        
+    }
+    .service-content p 
+    {
+        margin-bottom:0;
+        font-size:24px;
+    }
+    .service-item.active + .service-content
+    {
+        margin-bottom:15px;
+    }
+</style>
+
+<h1>
+    The gamut of web experience is available to you as a client.
+</h1>
+<p>Don't know what you need? <a href="/contact-kyle/">Reach out and contact me for a consultation!</a></p>
+
+<div class="service-item">
+    <h3><img src="/assets/img/cloud.svg" />&nbsp;Cloud Computing Services (AWS)</h3>
+</div>
+<div class="service-content" style="display: none; overflow: hidden;"><p>Cloud Solutions, Simplified.</p>
+</div>
+
+<div class="service-item">
+    <h3><img src="/assets/img/cardiogram.svg" />&nbsp;Cybersecurity</h3>
+</div>
+<div id="#cybersecurity" class="service-content" style="display: none; overflow: hidden;"><p>Pentesting, secure development practices, and more…</p>
+</div>
+
+<div class="service-item">
+    <h3><img src="/assets/img/systems-devops-cicd-pipeline.svg" />&nbsp;DevOps</h3>
+</div>
+<div class="service-content" style="display: none; overflow: hidden;"><p>Continuous Integration / Continuous Deployment services such as Jenkins</p>
+</div>
+
+<div class="service-item">
+    <h3><img src="/assets/img/scrum.svg" />&nbsp;Scrum Master</h3>
+</div>
+<div class="service-content" style="display: none; overflow: hidden;"><p>Bringing a team from the forming stage to the performing stage is a job in itself.</p>
+</div>
+
+<div class="service-item">
+    <h3><img src="/assets/img/code.svg" />&nbsp;Web Development</h3>
+</div>
+<div class="service-content" style="display: none; overflow: hidden;"><p>Your presence on the internet can be as minimal or maximal as you need.</p>
+</div>
+
+<div class="service-item">
+    <h3><img src="/assets/img/server.svg" />&nbsp;System Administration</h3>
+</div>
+<div class="service-content" style="display: none; overflow: hidden;"><p>Automating a secure build out of a system that the website is deployed to is an art in of itself.</p>
+</div>
+
+<script>
+var coll = document.getElementsByClassName("service-item");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+
+  </div>
+  <!-- /.container -->
+  <!-- Footer -->
+<footer class="py-5 bg-dark">
+  <div class="container">
+    <p class="m-0 text-center text-white">
+      Copyright &copy; Kyle Crookshank 2024
+    </p>
+  </div>
+  <!-- /.container -->
+</footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="/assets/vendor/jquery/jquery.min.js"></script>
+  <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

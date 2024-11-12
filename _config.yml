@@ -1,5 +1,5 @@
-title: Business Frontpage
-description: A business home page starter template for Bootstrap 4 featuring marketing boxes and a full width image header.
+title: "Kyle Crookshank: Building Secure Web Solutions"
+description:  "I am a CompTIA Security+ certified cybersecurity specialist with experience in web development, system administration, and DevOps. I help businesses of all sizes protect their websites and data from cyberattacks. My services include penetration testing, security incident response, and secure web development."
 
 # disabled because we are using a custom domain
 #baseurl: /business-frontpage 
@@ -15,3 +15,18 @@ include:
 
 exclude:
   - .sass-cache
+
+collections_dir: collections
+collections:
+  services: 
+    output: true
+    sort_by: order
+
+
+github_username:  crookshanked
+author: 
+  name: Kyle Crookshank
+  email: kc@kylecrookshank.com
+social_links:
+- { platform: github,  user_url: "https://github.com/crookshanked" }
+- { platform: linkedin,  user_url: "https://www.linkedin.com/in/kylecrookshank/" }

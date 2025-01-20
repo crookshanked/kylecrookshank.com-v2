@@ -7,4 +7,5 @@ image: /assets/img/server.svg
 order: 3
 # image: https://picsum.photos/185/300
 ---
-Automating a secure build out of a system that the website is deployed to is an art in of itself. 
+Automating a secure build of a system is an art in of itself. 
+<a class="" href="/contact-kyle">Let's talk! &raquo;</a>

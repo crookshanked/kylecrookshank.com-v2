@@ -8,3 +8,4 @@ order: 1
 # image: https://picsum.photos/185/300
 ---
 Bringing a team from the forming stage to the performing stage is a job in itself.
+<a class="" href="/contact-kyle">Let's talk! &raquo;</a>

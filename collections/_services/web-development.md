@@ -8,3 +8,4 @@ order: 2
 # image: https://picsum.photos/185/300
 ---
 Your presence on the internet can be as minimal or maximal as you need.
+<a class="" href="/contact-kyle">Let's talk! &raquo;</a>

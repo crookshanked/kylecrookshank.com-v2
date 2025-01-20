@@ -8,3 +8,4 @@ order: 1
 # image: https://picsum.photos/185/300
 ---
 Cloud Solutions, Simplified.
+<a class="" href="/contact-kyle">Let's talk! &raquo;</a>
